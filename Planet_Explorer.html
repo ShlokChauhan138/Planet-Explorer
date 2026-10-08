@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Planet Explorer</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        <style>
+            .sec-title, .card{
+                margin-top:50px;
+            }
+            .sec-title{
+                font-family: cursive;
+            }
+            .navbar{
+                background-color: rgb(3, 3, 61);
+            }
+            body{
+                background-image: linear-gradient(20deg, lightblue, cornflowerblue, lightblue);
+            }
+        </style>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-sm">
+            <a href="https://www.nasa.gov" class="navbar-brand">Planet Explorer</a>
+
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Planets</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Nebulas</a></li>
+            </ul>
+        </nav>
+
+        <div class="container mt-4">
+            <h3 class="sec-title">Scanning the Galaxy for New Black Holes......</h1>
+            <div class="spinner-border text-primary"></div>
+            <div class="spinner-border text-warning"></div>
+            <div class="spinner-border text-danger"></div>
+            
+            <h3 class="sec-title">Few Cool Planets: </h1>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Earth.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Earth</h4>
+                            <p class="card-text">The only planet known to have life! This is where we live.</p>
+                            <button class="btn btn-primary">Explore</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Venus.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Venus</h4>
+                            <p class="card-text">The hottest planet in the <a href="https://en.wikipedia.org/wiki/Solar_System">Solar System</a> with volcanoes, and acid rain.</p>
+                            <button class="btn btn-warning">Explore</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="Saturn.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Saturn</h4>
+                            <p class="card-text">The Jewel of the Solar System with its magificant rings.</p>
+                            <button class="btn" style="background-color: var(--teal);">Explore</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="sec-title">Browse More Planets!</h3>
+            <ul class="pagination">
+                <li class="page-item"><a href="#" class="page-link">Previous</a></li>
+                <li class="page-item"><a href="#" class="page-link">1</a></li>
+                <li class="page-item"><a href="#" class="page-link">2</a></li>
+                <li class="page-item"><a href="#" class="page-link">3</a></li>
+                <li class="page-item"><a href="#" class="page-link">Next</a></li>
+            </ul>
+        </div>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </body>
+</html>
